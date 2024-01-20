@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.card div {
+    max-width: 90%;
+    width: 60%;
+    min-width: 60%;
+    background-color: #97bda3;
+    border-radius: 20px;
+    padding: 10px 40px;
+    height: auto;
+}
+
+.card div div {
+    display: flex;
+    color: rgb(1, 1, 1);
+    font-size: 16px;
+    font-weight: 800;
+
+}
+
+.data {
+    position: absolute;
+    left: 20%;
+    font-size: 16px;
+}
+
+.icone {
+    position: absolute;
+    right: 18%;
+    
+}
+
+.card h1 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+}

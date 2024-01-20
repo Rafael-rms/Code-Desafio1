@@ -1,0 +1,66 @@
+body {
+    margin-top: 180px; /* Ajuste conforme necessário, igual à altura do cabeçalho */
+}
+
+
+.cabecalho {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+
+
+    display: flex;
+    background-color: #65b97c;
+    height: 150px;
+    justify-content: center;
+}
+
+.codelandia {
+    position: absolute;
+    padding: 30px; 
+}
+
+.span1 {
+    color: orange;
+    font-size: 30px;
+    font-weight: 600;
+    bottom: 200px;
+
+}
+
+.span2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.buscar {
+    display: flex;
+    flex-direction: row;
+    padding: 90px; 
+    position: absolute;
+    min-width: 100%;
+    justify-content: center;
+    
+   
+}
+.buscar button {
+    border-radius: 10px;
+    width: 45px;
+    border: none;
+    margin-right: 10px;
+}
+
+.buscar input {
+    max-width: 60%;
+    min-width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: none;
+   
+}
